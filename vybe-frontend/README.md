@@ -6,6 +6,8 @@ Frontend Technical Assignment for VybeNetwork
  1. Need to Run the backend application first
  2. Dev Backend environment runs at 3000 port and production runs on 8081
  3. The Url for the Backend api is assgined in the useApp.ts file
+ 4. Need to disable CORS in browser to avoid API blocking from CORS policy
+
 ## Available Scripts
 
 ### `yarn run dev`

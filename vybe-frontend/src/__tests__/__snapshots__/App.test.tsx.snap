@@ -4,7 +4,7 @@ exports[`Snapshots should renders correctly 1`] = `
 <Fragment>
   <div>
     <h1>
-      Market Capital
+      Market Capital (USD)
     </h1>
     <div
       className="card"
@@ -37,8 +37,8 @@ exports[`Snapshots should renders correctly 1`] = `
         }
         series={
           Array [
-            20059256.588990252,
-            1057680.4350760388,
+            20059256.58,
+            1057680.43,
           ]
         }
         type="pie"
@@ -147,10 +147,5 @@ exports[`Snapshots should renders correctly 1`] = `
       width="1000"
     />
   </div>
-  <p
-    className="read-the-docs"
-  >
-    Click on the Vite and React logos to learn more
-  </p>
 </Fragment>
 `;

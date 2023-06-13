@@ -40,7 +40,7 @@ balanceChart: {
 	  }
 }, 
 marketCapChart: {
-	series: [20059256.588990252, 1057680.4350760388],
+	series: [20059256.58, 1057680.43],
     options: {
               chart: {
                 width: 380,
@@ -114,7 +114,7 @@ describe("App", () => {
   
   it("should render the Market Cap chart",()=>{
 		const wrapper = shallow(<App/>);
-		const  marketCap = <h1>Market Capital</h1>
+		const  marketCap = <h1>Market Capital (USD)</h1>
 		expect(wrapper.contains(marketCap)).toEqual(true);
   });
   it("should render the TPS chart",()=>{
