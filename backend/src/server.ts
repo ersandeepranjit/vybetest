@@ -29,7 +29,10 @@ app.use(helmet({
   crossOriginResourcePolicy:false,
   crossOriginOpenerPolicy:false
 }));
-
+app.use((req,res,next)=>{
+  res.set('Access-Control-Allow-Origin','*');
+  next();
+});
 // **** Setup **** //
 
 // Basic middleware
