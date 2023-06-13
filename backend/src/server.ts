@@ -24,7 +24,11 @@ import { RouteError } from '@src/other/classes';
 // **** Variables **** //
 
 const app = express();
-
+app.use(helmet({
+  crossOriginEmbedderPolicy: false,
+  crossOriginResourcePolicy:false,
+  crossOriginOpenerPolicy:false
+}));
 
 // **** Setup **** //
 
@@ -40,17 +44,16 @@ if (EnvVars.NodeEnv === NodeEnvs.Dev) {
 
 // Security
 if (EnvVars.NodeEnv === NodeEnvs.Production) {
-  app.use(helmet({
-    crossOriginEmbedderPolicy: false,
-    crossOriginResourcePolicy: false
-  }));
+  // app.use(helmet({
+  //   crossOriginEmbedderPolicy: false,
+  //   crossOriginResourcePolicy: false
+  // }));
 }
-app.use(helmet({
-  crossOriginEmbedderPolicy: false,
-  crossOriginResourcePolicy:false
-}));
+
 // Add APIs, must be after middleware
 app.use(Paths.Base, BaseRouter);
+
+
 
 // Add error handler
 app.use((

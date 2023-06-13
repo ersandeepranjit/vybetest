@@ -1,5 +1,5 @@
 import {useState, useEffect} from 'react';
-
+import {baseApiUrl} from './configs/constants';
 
 export const useApp = ()=>{
     const [marketCap, setMarketCap] = useState();
@@ -7,14 +7,13 @@ export const useApp = ()=>{
     const [tpsChart, setTpsChart] = useState<any>();
     const [balanceChart, setBalanceChart] = useState<any>();
   
-    const baseUrl =  "http://localhost:3000/api/v1/vybe"
     useEffect(()=>{
       const marketcapFetch = async () => {
         const result = (
           await Promise.all([
-            fetch(baseUrl+"/get-market-cap"),
-            fetch(baseUrl+"/get-performance"),
-            fetch(baseUrl+"/get-balance")
+            fetch(baseApiUrl+"/get-market-cap"),
+            fetch(baseApiUrl+"/get-performance"),
+            fetch(baseApiUrl+"/get-balance")
           ])
         ).map((r) => r.json());
   
