@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1686670686836" clover="3.2.0">
+  <project timestamp="1686670686836" name="All files">
+    <metrics statements="35" coveredstatements="6" conditionals="6" coveredconditionals="6" methods="14" coveredmethods="1" elements="55" coveredelements="13" complexity="0" loc="35" ncloc="35" packages="1" files="3" classes="3"/>
+    <file name="App.tsx" path="/Users/sandeepranjit/Project/VybeNetwork/frontend/vybe-frontend/src/App.tsx">
+      <metrics statements="6" coveredstatements="6" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="13" count="5" type="stmt"/>
+      <line num="14" count="5" type="stmt"/>
+      <line num="64" count="5" type="stmt"/>
+    </file>
+    <file name="main.tsx" path="/Users/sandeepranjit/Project/VybeNetwork/frontend/vybe-frontend/src/main.tsx">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="6" count="0" type="stmt"/>
+    </file>
+    <file name="useApp.ts" path="/Users/sandeepranjit/Project/VybeNetwork/frontend/vybe-frontend/src/useApp.ts">
+      <metrics statements="28" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="0"/>
+      <line num="4" count="0" type="stmt"/>
+      <line num="5" count="0" type="stmt"/>
+      <line num="6" count="0" type="stmt"/>
+      <line num="7" count="0" type="stmt"/>
+      <line num="8" count="0" type="stmt"/>
+      <line num="10" count="0" type="stmt"/>
+      <line num="11" count="0" type="stmt"/>
+      <line num="12" count="0" type="stmt"/>
+      <line num="13" count="0" type="stmt"/>
+      <line num="19" count="0" type="stmt"/>
+      <line num="22" count="0" type="stmt"/>
+      <line num="25" count="0" type="stmt"/>
+      <line num="26" count="0" type="stmt"/>
+      <line num="27" count="0" type="stmt"/>
+      <line num="29" count="0" type="stmt"/>
+      <line num="32" count="0" type="stmt"/>
+      <line num="33" count="0" type="stmt"/>
+      <line num="34" count="0" type="stmt"/>
+      <line num="40" count="0" type="stmt"/>
+      <line num="55" count="0" type="stmt"/>
+      <line num="56" count="0" type="stmt"/>
+      <line num="59" count="0" type="stmt"/>
+      <line num="87" count="0" type="stmt"/>
+      <line num="94" count="0" type="stmt"/>
+      <line num="95" count="0" type="stmt"/>
+      <line num="101" count="0" type="stmt"/>
+      <line num="107" count="0" type="stmt"/>
+      <line num="112" count="0" type="stmt"/>
+    </file>
+  </project>
+</coverage>

@@ -1,0 +1,156 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshots should renders correctly 1`] = `
+<Fragment>
+  <div>
+    <h1>
+      Market Capital
+    </h1>
+    <div
+      className="card"
+    >
+      <mockConstructor
+        options={
+          Object {
+            "chart": Object {
+              "type": "pie",
+              "width": 380,
+            },
+            "labels": Array [
+              "7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU",
+              "CWE8jPTUYhdCTZYWPTe1o5DFqfdjzWKc9WKz6rSjQUdG",
+            ],
+            "responsive": Array [
+              Object {
+                "breakpoint": 480,
+                "options": Object {
+                  "chart": Object {
+                    "width": 200,
+                  },
+                  "legend": Object {
+                    "position": "bottom",
+                  },
+                },
+              },
+            ],
+          }
+        }
+        series={
+          Array [
+            20059256.588990252,
+            1057680.4350760388,
+          ]
+        }
+        type="pie"
+        width="500"
+      />
+    </div>
+  </div>
+  <h1>
+    Transaction Per second
+  </h1>
+  <div
+    className="card"
+  >
+    <mockConstructor
+      options={
+        Object {
+          "chart": Object {
+            "height": 350,
+            "type": "line",
+            "zoom": Object {
+              "enabled": false,
+            },
+          },
+          "dataLabels": Object {
+            "enabled": false,
+          },
+          "grid": Object {
+            "row": Object {
+              "colors": Array [
+                "#f3f3f3",
+                "transparent",
+              ],
+              "opacity": 0.5,
+            },
+          },
+          "stroke": Object {
+            "curve": "straight",
+          },
+          "title": Object {
+            "align": "left",
+            "text": "Transaction per Second",
+          },
+          "xaxis": Object {
+            "categories": Array [
+              199344569,
+              199344446,
+            ],
+          },
+        }
+      }
+      series={
+        Array [
+          Object {
+            "data": Array [
+              43341,
+              3939,
+            ],
+            "name": "TPS",
+          },
+        ]
+      }
+      type="line"
+    />
+  </div>
+  <h1>
+    Wallet Balance
+  </h1>
+  <div
+    className="card"
+  >
+    <mockConstructor
+      options={
+        Object {
+          "chart": Object {
+            "height": 350,
+            "type": "bar",
+          },
+          "dataLabels": Object {
+            "enabled": false,
+          },
+          "plotOptions": Object {
+            "bar": Object {
+              "borderRadius": 4,
+              "horizontal": true,
+            },
+          },
+          "xaxis": Object {
+            "categories": Array [
+              "7VHUFJHWu2CuExkJcJrzhQPJ2oygupTWkL2A2For4BmE",
+              "9WzDXwBbmkg8ZTbNMqUxvQRAyrZzDsGYdLVL9zYtAWWM",
+            ],
+          },
+        }
+      }
+      series={
+        Array [
+          Object {
+            "data": Array [
+              400,
+              430,
+            ],
+          },
+        ]
+      }
+      type="bar"
+      width="1000"
+    />
+  </div>
+  <p
+    className="read-the-docs"
+  >
+    Click on the Vite and React logos to learn more
+  </p>
+</Fragment>
+`;

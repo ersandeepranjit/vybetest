@@ -1,0 +1,9 @@
+.DS_Store
+backend/node_modules
+backend/dist
+backend/package-lock.json
+
+vybe-frontend/dist
+vybe-frontend/node_modules
+vybe-frontend/yarn.lock
+.env
