@@ -11,12 +11,12 @@ async function getTokenSupply(): Promise<IToken[]> {
   const newToken: any[] = Object.keys(tokenPrices?.data.data).map(async (tokenAddress:any) =>{
     const tokenResponse: any =  await Web3.getTotalSupply(tokenAddress as PublicKey); 
     let priceResponse =  tokenPrices?.data.data[tokenAddress];
-    let tempToken:any = {};
+    let tempToken:IToken = {};
     tempToken.address = tokenAddress;
     tempToken.symbol = priceResponse.mintSymbol;
     tempToken.totalSupply = tokenResponse?.value?.uiAmount as number;
     tempToken.marketCapital = tempToken.totalSupply * priceResponse.price;
-    return tempToken as IToken;
+    return tempToken;
   });
   return Promise.all(newToken);
 
